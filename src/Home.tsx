@@ -11,7 +11,7 @@ import {
   Commitment,
   Connection,
   PublicKey,
-  Transaction,
+  Transaction, 
 } from "@solana/web3.js";
 import { useAnchorWallet, useWallet } from "@solana/wallet-adapter-react";
 import { WalletDialogButton } from "@solana/wallet-adapter-material-ui";
@@ -24,10 +24,10 @@ import {
   getCollectionPDA,
   mintOneToken,
   SetupState,
-} from "./candy-machine";
-import { AlertState, formatNumber, getAtaForMint, toDate } from "./utils";
+} from "./components/cm/candy-machine";
+import { AlertState, formatNumber, getAtaForMint, toDate } from "./components/cm/utils";
 import { MintCountdown } from "./MintCountdown";
-import { MintButton } from "./MintButton";
+import { MintButton } from "./components/cm/MintButton";
 import { GatewayProvider } from "@civic/solana-gateway-react";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 import { SolanaMobileWalletAdapterWalletName } from "@solana-mobile/wallet-adapter-mobile";

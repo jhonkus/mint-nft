@@ -2,7 +2,7 @@ import "./App.css";
 import { useMemo } from "react";
 import * as anchor from "@project-serum/anchor";
 import Home from "./Home";
-import { DEFAULT_TIMEOUT } from "./connection";
+import { DEFAULT_TIMEOUT } from "./components/cm/connection";
 import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 

@@ -3,7 +3,7 @@ import { TOKEN_PROGRAM_ID } from "@solana/spl-token";
 import { SystemProgram } from "@solana/web3.js";
 import {
   LAMPORTS_PER_SOL,
-  SYSVAR_RENT_PUBKEY,
+  SYSVAR_RENT_PUBKEY, 
   TransactionInstruction,
 } from "@solana/web3.js";
 
