@@ -1,1 +1,1 @@
-# mint-nft
+# Metaplex Candy Machine Reference UI
